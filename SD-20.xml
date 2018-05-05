@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<ModuleData Name="SD-20" Folder="Roland" Priority="100" FileCreator="IzumoFox" FileVersion="1.00" WebSite="http://inarifox.hateblo.jp/">
+	<RhythmTrackDefault Gate="64" />
+    <ExclusiveEventDefault Data="f0h 41h 10h 42h f7h" />
+    <ProgramChangeEventPropertyDlg AutoPreviewDelay="0" />
+	<InstrumentList>
+        <Map Name="SD-20 Native/GM2">
+                <PC Name="Piano 1" PC="1">
+                        <Bank Name="Piano 1" LSB="0" MSB="96" />
+                        <Bank Name="Piano 1w" LSB="1" MSB="96" />
+                        <Bank Name="Piano 1d" LSB="2" MSB="96" />
+                        <Bank Name="Ac.Piano" LSB="0" MSB="97" />
+                        <Bank Name="Ac.Piano w" LSB="1" MSB="97" />
+                        <Bank Name="Mild Piano" LSB="2" MSB="97" />
+                        <Bank Name="St.Piano1" LSB="0" MSB="98" />
+                        <Bank Name="St.Piano1w" LSB="1" MSB="98" />
+                        <Bank Name="European Pf" LSB="2" MSB="98" />
+                </PC>
+                <PC Name="Piano 2" PC="2">
+                        <Bank Name="Piano 2" LSB="0" MSB="96" />
+                        <Bank Name="Piano 2w" LSB="1" MSB="96" />
+                        <Bank Name="Rock Piano" LSB="0" MSB="97" />
+                        <Bank Name="Rock Piano w" LSB="1" MSB="97" />
+                        <Bank Name="St.Piano2" LSB="0" MSB="98" />
+                        <Bank Name="St.Piano2w" LSB="1" MSB="98" />
+                </PC>
+                <PC Name="Piano 3" PC="3">
+                        <Bank Name="Piano 3" LSB="0" MSB="96" />
+                        <Bank Name="Piano 3w" LSB="1" MSB="96" />
+                        <Bank Name="E.Grand Pf" LSB="0" MSB="97" />
+                        <Bank Name="E.Grand Pf w" LSB="1" MSB="97" />
+                        <Bank Name="SA Piano" LSB="0" MSB="98" />
+                        <Bank Name="SA Piano w" LSB="1" MSB="98" />
+                </PC>
+        </Map>
+        <Map Name="SD-20 GS">
+        </Map>
+        <Map Name="SD-20 XGLite">
+        </Map>
+	</InstrumentList>
+	<DrumSetList>
+        <Map Name="SD-20 Native">
+        </Map>
+        <Map Name="SD-20 GM2">
+        </Map>
+        <Map Name="SD-20 GS">
+        </Map>
+        <Map Name="SD-20 XGLite">
+        </Map>
+	</DrumSetList>
+	<ControlChangeMacroList>
+		<!-- （コントロールチェンジマクロ情報を記述） -->
+	</ControlChangeMacroList>
+	<TemplateList>
+		<!-- （テンプレート情報を記述） -->
+	</TemplateList>
+	<DefaultData>
+		<!-- （デフォルトデータ情報を記述） -->
+	</DefaultData>
+</ModuleData>
