@@ -5,48 +5,157 @@
     <ExclusiveEventDefault Data="f0h 41h 10h 42h f7h" />
     <ProgramChangeEventPropertyDlg AutoPreviewDelay="0" />
 	<InstrumentList>
-        <Map Name="SD-20 Native/GM2">
+        <Map Name="Native/GM2">
+                <!-- ピアノ -->
                 <PC Name="Piano 1" PC="1">
+                        <!-- Classic Set -->
                         <Bank Name="Piano 1" LSB="0" MSB="96" />
                         <Bank Name="Piano 1w" LSB="1" MSB="96" />
                         <Bank Name="Piano 1d" LSB="2" MSB="96" />
+                        <!-- Contemp Set -->
                         <Bank Name="Ac.Piano" LSB="0" MSB="97" />
                         <Bank Name="Ac.Piano w" LSB="1" MSB="97" />
                         <Bank Name="Mild Piano" LSB="2" MSB="97" />
+                        <!-- Solo Set -->
                         <Bank Name="St.Piano1" LSB="0" MSB="98" />
                         <Bank Name="St.Piano1w" LSB="1" MSB="98" />
                         <Bank Name="European Pf" LSB="2" MSB="98" />
                 </PC>
                 <PC Name="Piano 2" PC="2">
+                        <!-- Classic Set -->
                         <Bank Name="Piano 2" LSB="0" MSB="96" />
                         <Bank Name="Piano 2w" LSB="1" MSB="96" />
+                        <!-- Contemp Set -->
                         <Bank Name="Rock Piano" LSB="0" MSB="97" />
                         <Bank Name="Rock Piano w" LSB="1" MSB="97" />
+                        <!-- Solo Set -->
                         <Bank Name="St.Piano2" LSB="0" MSB="98" />
                         <Bank Name="St.Piano2w" LSB="1" MSB="98" />
                 </PC>
                 <PC Name="Piano 3" PC="3">
+                        <!-- Classic Set -->
                         <Bank Name="Piano 3" LSB="0" MSB="96" />
                         <Bank Name="Piano 3w" LSB="1" MSB="96" />
+                        <!-- Contemp Set -->
                         <Bank Name="E.Grand Pf" LSB="0" MSB="97" />
                         <Bank Name="E.Grand Pf w" LSB="1" MSB="97" />
+                        <!-- Solo Set -->
                         <Bank Name="SA Piano" LSB="0" MSB="98" />
                         <Bank Name="SA Piano w" LSB="1" MSB="98" />
                 </PC>
+                <PC Name="Honky-tonk" PC="4">
+                        <!-- Classic Set -->
+                        <Bank Name="Honky-tonk" LSB="0" MSB="96" />
+                        <Bank Name="Honky-tonk w" LSB="1" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Old Honky" LSB="0" MSB="97" />
+                        <Bank Name="Old Honky w" LSB="1" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Honky" LSB="0" MSB="98" />
+                        <Bank Name="St.Honky w" LSB="1" MSB="98" />
+                </PC>
+                <PC Name="E.Piano 1" PC="5">
+                        <!-- Classic Set -->
+                        <Bank Name="E.Piano 1" LSB="0" MSB="96" />
+                        <Bank Name="Detuned EP1" LSB="1" MSB="96" />
+                        <Bank Name="Dyno Rhodes" LSB="2" MSB="96" />
+                        <Bank Name="60's E.Piano" LSB="3" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Soft Rhodes" LSB="0" MSB="97" />
+                        <Bank Name="Fat Rhodes" LSB="1" MSB="97" />
+                        <Bank Name="Rhodes Wide" LSB="2" MSB="97" />
+                        <Bank Name="Wurly Soft" LSB="3" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="Tremo Rhodes" LSB="0" MSB="98" />
+                        <Bank Name="Sweet Tynes" LSB="1" MSB="98" />
+                        <Bank Name="Tremo Dyno" LSB="2" MSB="98" />
+                        <Bank Name="Tremo Wurly" LSB="3" MSB="98" />
+                </PC>
+                <PC Name="E.Piano 2" PC="6">
+                        <!-- Classic Set -->
+                        <Bank Name="E.Piano 2" LSB="0" MSB="96" />
+                        <Bank Name="Detuned EP2" LSB="1" MSB="96" />
+                        <Bank Name="E.Piano 2v" LSB="2" MSB="96" />
+                        <Bank Name="EP Legend" LSB="3" MSB="96" />
+                        <Bank Name="EP Phase" LSB="4" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="FM E.Piano" LSB="0" MSB="97" />
+                        <Bank Name="Soft FM EP" LSB="1" MSB="97" />
+                        <Bank Name="SA E.Piano" LSB="2" MSB="97" />
+                        <Bank Name="EP Legend2" LSB="3" MSB="97" />
+                        <Bank Name="EP Phase2" LSB="4" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="FM Hard EP" LSB="0" MSB="98" />
+                        <Bank Name="Brite FM EP" LSB="1" MSB="98" />
+                        <Bank Name="Brite FM EP2" LSB="2" MSB="98" />
+                        <Bank Name="EP Legend3" LSB="3" MSB="98" />
+                        <Bank Name="EP Phase 3" LSB="4" MSB="98" />
+                </PC>
+                <PC Name="Harpsichord" PC="7">
+                        <!-- Classic Set -->
+                        <Bank Name="Harpsichord" LSB="0" MSB="96" />
+                        <Bank Name="Coupl hps" LSB="1" MSB="96" />
+                        <Bank Name="Harpsi w" LSB="2" MSB="96" />
+                        <Bank Name="Harpsi o" LSB="3" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Harpsi 2" LSB="0" MSB="97" />
+                        <Bank Name="Coupl hps 2" LSB="1" MSB="97" />
+                        <Bank Name="Harpsi 2 w" LSB="2" MSB="97" />
+                        <Bank Name="Harpsi 2 o" LSB="3" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Harpsichd" LSB="0" MSB="98" />
+                        <Bank Name="St.Coupl hps" LSB="1" MSB="98" />
+                        <Bank Name="St.Harpsi w" LSB="2" MSB="98" />
+                        <Bank Name="St.Harpsi o" LSB="3" MSB="98" />
+                </PC>
+                <PC Name="Clav" PC="8">
+                        <!-- Classic Set -->
+                        <Bank Name="Clav" LSB="0" MSB="96" />
+                        <Bank Name="Pulse Clav" LSB="1" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Atack Clav1" LSB="0" MSB="97" />
+                        <Bank Name="AnalogClav1" LSB="1" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="Atack Clav1" LSB="0" MSB="98" />
+                        <Bank Name="AnalogClav2" LSB="1" MSB="98" />
+                </PC>
+                <!-- クロマチック・パーカッション -->
+                <PC Name="Celesta" PC="9">
+                        <!-- Classic Set -->
+                        <Bank Name="Celesta" LSB="0" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Celesta 2" LSB="0" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Celesta" LSB="0" MSB="98" />
+                </PC>
+                <PC Name="Glockenspiel" PC="10">
+                        <!-- Classic Set -->
+                        <Bank Name="Glockenspiel" LSB="0" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Glocken 2" LSB="0" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Glocken" LSB="0" MSB="98" />
+                </PC>
+                <PC Name="Music Box" PC="11">
+                        <!-- Classic Set -->
+                        <Bank Name="Music Box" LSB="0" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Music Box 2" LSB="0" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Music Box" LSB="0" MSB="98" />
+                </PC>
         </Map>
-        <Map Name="SD-20 GS">
+        <Map Name="GS">
         </Map>
-        <Map Name="SD-20 XGLite">
+        <Map Name="XGLite">
         </Map>
 	</InstrumentList>
 	<DrumSetList>
-        <Map Name="SD-20 Native">
+        <Map Name="Native/GM2">
         </Map>
-        <Map Name="SD-20 GM2">
+        <Map Name="GS">
         </Map>
-        <Map Name="SD-20 GS">
-        </Map>
-        <Map Name="SD-20 XGLite">
+        <Map Name="XGLite">
         </Map>
 	</DrumSetList>
 	<ControlChangeMacroList>
