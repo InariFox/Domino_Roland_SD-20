@@ -17,8 +17,8 @@
                         <Bank Name="Ac.Piano w" LSB="1" MSB="97" />
                         <Bank Name="Mild Piano" LSB="2" MSB="97" />
                         <!-- Solo Set -->
-                        <Bank Name="St.Piano1" LSB="0" MSB="98" />
-                        <Bank Name="St.Piano1w" LSB="1" MSB="98" />
+                        <Bank Name="St.Piano 1" LSB="0" MSB="98" />
+                        <Bank Name="St.Piano 1w" LSB="1" MSB="98" />
                         <Bank Name="European Pf" LSB="2" MSB="98" />
                 </PC>
                 <PC Name="Piano 2" PC="2">
@@ -29,8 +29,8 @@
                         <Bank Name="Rock Piano" LSB="0" MSB="97" />
                         <Bank Name="Rock Piano w" LSB="1" MSB="97" />
                         <!-- Solo Set -->
-                        <Bank Name="St.Piano2" LSB="0" MSB="98" />
-                        <Bank Name="St.Piano2w" LSB="1" MSB="98" />
+                        <Bank Name="St.Piano 2" LSB="0" MSB="98" />
+                        <Bank Name="St.Piano 2w" LSB="1" MSB="98" />
                 </PC>
                 <PC Name="Piano 3" PC="3">
                         <!-- Classic Set -->
@@ -57,7 +57,7 @@
                 <PC Name="E.Piano 1" PC="5">
                         <!-- Classic Set -->
                         <Bank Name="E.Piano 1" LSB="0" MSB="96" />
-                        <Bank Name="Detuned EP1" LSB="1" MSB="96" />
+                        <Bank Name="Detuned EP 1" LSB="1" MSB="96" />
                         <Bank Name="Dyno Rhodes" LSB="2" MSB="96" />
                         <Bank Name="60's E.Piano" LSB="3" MSB="96" />
                         <!-- Contemp Set -->
@@ -82,13 +82,13 @@
                         <Bank Name="FM E.Piano" LSB="0" MSB="97" />
                         <Bank Name="Soft FM EP" LSB="1" MSB="97" />
                         <Bank Name="SA E.Piano" LSB="2" MSB="97" />
-                        <Bank Name="EP Legend2" LSB="3" MSB="97" />
-                        <Bank Name="EP Phase2" LSB="4" MSB="97" />
+                        <Bank Name="EP Legend 2" LSB="3" MSB="97" />
+                        <Bank Name="EP Phase 2" LSB="4" MSB="97" />
                         <!-- Solo Set -->
                         <Bank Name="FM Hard EP" LSB="0" MSB="98" />
                         <Bank Name="Brite FM EP" LSB="1" MSB="98" />
                         <Bank Name="Brite FM EP2" LSB="2" MSB="98" />
-                        <Bank Name="EP Legend3" LSB="3" MSB="98" />
+                        <Bank Name="EP Legend 3" LSB="3" MSB="98" />
                         <Bank Name="EP Phase 3" LSB="4" MSB="98" />
                 </PC>
                 <PC Name="Harpsichord" PC="7">
@@ -100,8 +100,8 @@
                         <!-- Contemp Set -->
                         <Bank Name="Harpsi 2" LSB="0" MSB="97" />
                         <Bank Name="Coupl hps 2" LSB="1" MSB="97" />
-                        <Bank Name="Harpsi 2 w" LSB="2" MSB="97" />
-                        <Bank Name="Harpsi 2 o" LSB="3" MSB="97" />
+                        <Bank Name="Harpsi 2w" LSB="2" MSB="97" />
+                        <Bank Name="Harpsi 2o" LSB="3" MSB="97" />
                         <!-- Solo Set -->
                         <Bank Name="St.Harpsichd" LSB="0" MSB="98" />
                         <Bank Name="St.Coupl hps" LSB="1" MSB="98" />
@@ -113,11 +113,11 @@
                         <Bank Name="Clav" LSB="0" MSB="96" />
                         <Bank Name="Pulse Clav" LSB="1" MSB="96" />
                         <!-- Contemp Set -->
-                        <Bank Name="Atack Clav1" LSB="0" MSB="97" />
-                        <Bank Name="AnalogClav1" LSB="1" MSB="97" />
+                        <Bank Name="Atack Clav 1" LSB="0" MSB="97" />
+                        <Bank Name="AnalogClav 1" LSB="1" MSB="97" />
                         <!-- Solo Set -->
-                        <Bank Name="Atack Clav1" LSB="0" MSB="98" />
-                        <Bank Name="AnalogClav2" LSB="1" MSB="98" />
+                        <Bank Name="Atack Clav 2" LSB="0" MSB="98" />
+                        <Bank Name="AnalogClav 2" LSB="1" MSB="98" />
                 </PC>
                 <!-- クロマチック・パーカッション -->
                 <PC Name="Celesta" PC="9">
@@ -143,6 +143,150 @@
                         <Bank Name="Music Box 2" LSB="0" MSB="97" />
                         <!-- Solo Set -->
                         <Bank Name="St.Music Box" LSB="0" MSB="98" />
+                </PC>
+                <PC Name="Vibraphone" PC="12">
+                        <!-- Classic Set -->
+                        <Bank Name="Vibraphone" LSB="0" MSB="96" />
+                        <Bank Name="Vibraphone w" LSB="1" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Vibraphone 2" LSB="0" MSB="97" />
+                        <Bank Name="Vibraphone 2w" LSB="1" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Vibra" LSB="0" MSB="98" />
+                        <Bank Name="St.Vibra w" LSB="1" MSB="98" />
+                </PC>
+                <PC Name="Marimba" PC="13">
+                        <!-- Classic Set -->
+                        <Bank Name="Marimba" LSB="0" MSB="96" />
+                        <Bank Name="Marimba w" LSB="1" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Marimba 2" LSB="0" MSB="97" />
+                        <Bank Name="Marimba 2w" LSB="1" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Marimba" LSB="0" MSB="98" />
+                        <Bank Name="St.Marimba w" LSB="1" MSB="98" />
+                </PC>
+                <PC Name="Xylophone" PC="14">
+                        <!-- Classic Set -->
+                        <Bank Name="Xylophone" LSB="0" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Xylophone 2" LSB="0" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Xylophone" LSB="0" MSB="98" />
+                </PC>
+                <PC Name="Tubular-bell" PC="15">
+                        <!-- Classic Set -->
+                        <Bank Name="Tubular-bell" LSB="0" MSB="96" />
+                        <Bank Name="Church Bell" LSB="1" MSB="96" />
+                        <Bank Name="Carillon" LSB="2" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Tubular-bell 2" LSB="0" MSB="97" />
+                        <Bank Name="Church Bell 2" LSB="1" MSB="97" />
+                        <Bank Name="Carillon 2" LSB="2" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Tubular" LSB="0" MSB="98" />
+                        <Bank Name="St.Church" LSB="1" MSB="98" />
+                        <Bank Name="St.Carillon" LSB="2" MSB="98" />
+                </PC>
+                <PC Name="Santur" PC="16">
+                        <!-- Classic Set -->
+                        <Bank Name="Santur" LSB="0" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Santur 2" LSB="0" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Santur" LSB="0" MSB="98" />
+                </PC>
+                <!-- オルガン -->
+                <PC Name="Organ 1" PC="17">
+                        <!-- Classic Set -->
+                        <Bank Name="Organ 1" LSB="0" MSB="96" />
+                        <Bank Name="Detuned Or 1" LSB="1" MSB="96" />
+                        <Bank Name="Organ 60" LSB="2" MSB="96" />
+                        <Bank Name="Organ 4" LSB="3" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Perky" LSB="0" MSB="97" />
+                        <Bank Name="Ballad B" LSB="1" MSB="97" />
+                        <Bank Name="Happy 60s" LSB="2" MSB="97" />
+                        <Bank Name="Tone Whell" LSB="3" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="Roller" LSB="0" MSB="98" />
+                        <Bank Name="Rocker" LSB="1" MSB="98" />
+                        <Bank Name="Soft 60's Organ" LSB="2" MSB="98" />
+                        <Bank Name="Full Stops" LSB="3" MSB="98" />
+                </PC>
+                <PC Name="Organ 2" PC="18">
+                        <!-- Classic Set -->
+                        <Bank Name="Organ 2" LSB="0" MSB="96" />
+                        <Bank Name="Detuned Or 2" LSB="1" MSB="96" />
+                        <Bank Name="Organ 5" LSB="2" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Jass Organ 1" LSB="0" MSB="97" />
+                        <Bank Name="Perc.Organ 1" LSB="1" MSB="97" />
+                        <Bank Name="Dist.JzOrg 1" LSB="2" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="Jass Organ 2" LSB="0" MSB="98" />
+                        <Bank Name="Perc.Organ 2" LSB="1" MSB="98" />
+                        <Bank Name="Dist.JzOrg 2" LSB="2" MSB="98" />
+                </PC>
+                <PC Name="Organ 3" PC="19">
+                        <!-- Classic Set -->
+                        <Bank Name="Organ 3" LSB="0" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Organ 3 fast" LSB="0" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="Rock Organ" LSB="0" MSB="98" />
+                </PC>
+                <PC Name="Church 1" PC="20">
+                        <!-- Classic Set -->
+                        <Bank Name="Church 1" LSB="0" MSB="96" />
+                        <Bank Name="Church 2" LSB="1" MSB="96" />
+                        <Bank Name="Church 3" LSB="2" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Pipe Organ 1" LSB="0" MSB="97" />
+                        <Bank Name="LargeChurch 1" LSB="1" MSB="97" />
+                        <Bank Name="SmallChurch 1" LSB="2" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="Pipe Organ 2" LSB="0" MSB="98" />
+                        <Bank Name="LargeChurch 2" LSB="1" MSB="98" />
+                        <Bank Name="SmallChurch 2" LSB="2" MSB="98" />
+                </PC>
+                <PC Name="Reed Organ" PC="21">
+                        <!-- Classic Set -->
+                        <Bank Name="Reed Organ 1" LSB="0" MSB="96" />
+                        <Bank Name="Puff Organ" LSB="1" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Reed Organ 2" LSB="0" MSB="97" />
+                        <Bank Name="Organ Flute" LSB="1" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="Reed Organ 3" LSB="0" MSB="98" />
+                        <Bank Name="Theater" LSB="1" MSB="98" />
+                </PC>
+                <PC Name="Accordion F" PC="22">
+                        <!-- Classic Set -->
+                        <Bank Name="Accordion F" LSB="0" MSB="96" />
+                        <Bank Name="Accordion I" LSB="1" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="French Acc" LSB="0" MSB="97" />
+                        <Bank Name="lt Muset" LSB="1" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.French Acc" LSB="0" MSB="98" />
+                        <Bank Name="St.lt Muset" LSB="1" MSB="98" />
+                </PC>
+                <PC Name="Harmonica" PC="23">
+                        <!-- Classic Set -->
+                        <Bank Name="Harmonica" LSB="0" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Harmonica 2" LSB="0" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Harmonica" LSB="0" MSB="98" />
+                </PC>
+                <PC Name="Bandneon" PC="24">
+                        <!-- Classic Set -->
+                        <Bank Name="Bandneon" LSB="0" MSB="96" />
+                        <!-- Contemp Set -->
+                        <Bank Name="Bandneon 1" LSB="0" MSB="97" />
+                        <!-- Solo Set -->
+                        <Bank Name="St.Bandneon" LSB="0" MSB="98" />
                 </PC>
         </Map>
         <Map Name="GS">
