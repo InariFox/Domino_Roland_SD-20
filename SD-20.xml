@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="Shift_JIS"?> 
-<ModuleData Name="SD-20" Folder="Roland" Priority="100" FileCreator="IzumoFox" FileVersion="1.00" WebSite="http://inarifox.hateblo.jp/">　
+<ModuleData Name="SD-20" Folder="Roland" Priority="100" FileCreator="IzumoFox" FileVersion="0.01" WebSite="http://inarifox.hateblo.jp/">　
 	<!-- 音源設定 -->
 	<RhythmTrackDefault Gate="64" />
 	<ExclusiveEventDefault Data="f0h 41h 10h 42h f7h" />
 	<ProgramChangeEventPropertyDlg AutoPreviewDelay="0" />
 	<!-- インストゥルメントリスト -->
 	<InstrumentList>
-		<!-- Native/GM2 -->
-		<Map Name="Native/GM2">
-			<!-- ピアノ -->
+		<!-- Native/GM2	-->
+		<!-- @ピアノ -->
+		<Map Name="Native/GM2@ﾋﾟｱﾉ">
 			<PC Name="Piano 1" PC="1">
 				<!-- Classic Set -->
 				<Bank Name="Piano 1" LSB="0" MSB="96" />
@@ -121,7 +121,9 @@
 				<Bank Name="Atack Clav 2" LSB="0" MSB="98" />
 				<Bank Name="AnalogClav 2" LSB="1" MSB="98" />
 			</PC>
-			<!-- クロマチック・パーカッション -->
+		</Map>
+		<!-- @クロマチック・パーカッション -->
+		<Map Name="Native/GM2@ｸﾛﾏﾁｯｸ/ﾊﾟｰｶｯｼｮﾝ">
 			<PC Name="Celesta" PC="9">
 				<!-- Classic Set -->
 				<Bank Name="Celesta" LSB="0" MSB="96" />
@@ -198,7 +200,9 @@
 				<!-- Solo Set -->
 				<Bank Name="St.Santur" LSB="0" MSB="98" />
 			</PC>
-			<!-- オルガン -->
+		</Map>
+		<!-- @オルガン -->
+		<Map Name="Native/GM2@ｵﾙｶﾞﾝ">
 			<PC Name="Organ 1" PC="17">
 				<!-- Classic Set -->
 				<Bank Name="Organ 1" LSB="0" MSB="96" />
@@ -291,9 +295,12 @@
 				<Bank Name="St.Bandneon" LSB="0" MSB="98" />
 			</PC>
 		</Map>
+		<!-- ＠＠Native/GM2 未完成-->
+		<!-- Native/GM2ここまで	-->
+
 		<!-- GS -->
-		<Map Name="GS">
-			<!-- ピアノ -->
+		<!-- @ピアノ -->
+		<Map Name="GS@ﾋﾟｱﾉ">
 			<PC Name="Piano 1" PC="1">
 				<Bank Name="Piano 1" LSB="0" MSB="0" />
 				<Bank Name="Piano 1w" LSB="0" MSB="8" />
@@ -331,7 +338,9 @@
 			<PC Name="Clav." PC="8">
 				<Bank Name="Clav." LSB="0" MSB="0" />
 			</PC>
-			<!-- クロマチック・パーカッション -->
+		</Map>
+		<!-- @クロマチック・パーカッション -->
+		<Map Name="GS@ｸﾛﾏﾁｯｸ/ﾊﾟｰｶｯｼｮﾝ">
 			<PC Name="Celesta" PC="9">
 				<Bank Name="Celesta" LSB="0" MSB="0" />
 			</PC>
@@ -360,7 +369,9 @@
 			<PC Name="Santur" PC="16">
 				<Bank Name="Santur" LSB="0" MSB="0" />
 			</PC>
-			<!-- オルガン -->
+		</Map>
+		<!-- @オルガン -->
+		<Map Name="GS@ｵﾙｶﾞﾝ">
 			<PC Name="Organ 1" PC="17">
 				<Bank Name="Organ 1" LSB="0" MSB="0" />
 				<Bank Name="Detuned Or1" LSB="0" MSB="8" />
@@ -393,7 +404,9 @@
 			<PC Name="Bandoneon" PC="24">
 				<Bank Name="Bandoneon" LSB="0" MSB="0" />
 			</PC>
-			<!-- ギター -->
+		</Map>
+		<!-- @ギター -->
+		<Map Name="GS@ｷﾞﾀｰ">
 			<PC Name="Nylon Gt." PC="25">
 				<Bank Name="Nylon Gt." LSB="0" MSB="0" />
 				<Bank Name="Ukulele" LSB="0" MSB="8" />
@@ -429,7 +442,9 @@
 				<Bank Name="Gt.Harmonix" LSB="0" MSB="0" />
 				<Bank Name="Gt.Feedback" LSB="0" MSB="8" />
 			</PC>
-			<!-- ベース -->
+		</Map>
+		<!-- @ベース -->
+		<Map Name="GS@ﾍﾞｰｽ">
 			<PC Name="Acoustic Bs" PC="33">
 				<Bank Name="Acoustic Bs" LSB="0" MSB="0" />
 			</PC>
@@ -458,7 +473,9 @@
 				<Bank Name="Syn.Bass 4" LSB="0" MSB="8" />
 				<Bank Name="Rubber Bass" LSB="0" MSB="16" />
 			</PC>
-			<!-- ストリングス・オーケストラ -->
+		</Map>
+		<!-- @ストリングス・オーケストラ -->
+		<Map Name="GS@ｽﾄﾘﾝｸﾞｽ/ｵｰｹｽﾄﾗ">
 			<PC Name="Violin" PC="41">
 				<Bank Name="Violin" LSB="0" MSB="0" />
 				<Bank Name="Slow Violin" LSB="0" MSB="8" />
@@ -484,7 +501,9 @@
 			<PC Name="Timpani" PC="48">
 				<Bank Name="Timpani" LSB="0" MSB="0" />
 			</PC>
-			<!-- アンサンブル -->
+		</Map>
+		<!-- @アンサンブル -->
+		<Map Name="GS@ｱﾝｻﾝﾌﾞﾙ">
 			<PC Name="Strings" PC="49">
 				<Bank Name="Strings" LSB="0" MSB="0" />
 				<Bank Name="Orchestra" LSB="0" MSB="8" />
@@ -512,7 +531,9 @@
 			<PC Name="Orchest.Hit" PC="56">
 				<Bank Name="Orchest.Hit" LSB="0" MSB="0" />
 			</PC>
-			<!-- ブラス -->
+		</Map>
+		<!-- @ブラス -->
+		<Map Name="GS@ﾌﾞﾗｽ">
 			<PC Name="Trumpet" PC="57">
 				<Bank Name="Trumpet" LSB="0" MSB="0" />
 			</PC>
@@ -544,7 +565,9 @@
 				<Bank Name="Syn.Brass 4" LSB="0" MSB="8" />
 				<Bank Name="Analog Brs2" LSB="0" MSB="16" />
 			</PC>
-			<!-- リード -->
+		</Map>
+		<!-- @リード -->
+		<Map Name="GS@ﾘｰﾄﾞ">
 			<PC Name="Soprano Sax" PC="65">
 				<Bank Name="Soprano Sax" LSB="0" MSB="0" />
 			</PC>
@@ -569,7 +592,9 @@
 			<PC Name="Clarinet" PC="72">
 				<Bank Name="Clarinet" LSB="0" MSB="0" />
 			</PC>
-			<!-- パイプ -->
+		</Map>
+		<!-- @パイプ -->
+		<Map Name="GS@ﾊﾟｲﾌﾟ">
 			<PC Name="Piccolo" PC="73">
 				<Bank Name="Piccolo" LSB="0" MSB="0" />
 			</PC>
@@ -594,7 +619,9 @@
 			<PC Name="Ocarina" PC="80">
 				<Bank Name="Ocarina" LSB="0" MSB="0" />
 			</PC>
-			<!-- シンセリード -->
+		</Map>
+		<!-- @シンセリード -->
+		<Map Name="GS@ｼﾝｾﾘｰﾄﾞ">
 			<PC Name="Square Wave" PC="81">
 				<Bank Name="Square Wave" LSB="0" MSB="0" />
 				<Bank Name="Square" LSB="0" MSB="1" />
@@ -623,7 +650,9 @@
 			<PC Name="Bass & Lead" PC="88">
 				<Bank Name="Bass & Lead" LSB="0" MSB="0" />
 			</PC>
-			<!-- シンセ・パッド -->
+		</Map>
+		<!-- @シンセパッド -->
+		<Map Name="GS@ｼﾝｾﾊﾟｯﾄﾞ">
 			<PC Name="Fantasia" PC="89">
 				<Bank Name="Fantasia" LSB="0" MSB="0" />
 			</PC>
@@ -648,7 +677,9 @@
 			<PC Name="Sweep Pad" PC="96">
 				<Bank Name="Sweep Pad" LSB="0" MSB="0" />
 			</PC>
-			<!-- シンセ SFX -->
+		</Map>
+		<!-- @シンセ SFX -->
+		<Map Name="GS@ｼﾝｾSFX">
 			<PC Name="Ice Rain" PC="97">
 				<Bank Name="Ice Rain" LSB="0" MSB="0" />
 			</PC>
@@ -675,7 +706,9 @@
 			<PC Name="Star Theme" PC="104">
 				<Bank Name="Star Theme" LSB="0" MSB="0" />
 			</PC>
-			<!-- エスニック -->
+		</Map>
+		<!-- @エスニック -->
+		<Map Name="GS@ｴｽﾆｯｸ">
 			<PC Name="Sitar" PC="105">
 				<Bank Name="Sitar" LSB="0" MSB="0" />
 				<Bank Name="Sitar 2" LSB="0" MSB="1" />
@@ -702,7 +735,9 @@
 			<PC Name="Shanai" PC="112">
 				<Bank Name="Shanai" LSB="0" MSB="0" />
 			</PC>
-			<!-- パーカッシブ -->
+		</Map>
+		<!-- @パーカッシブ -->
+		<Map Name="GS@ﾊﾟｰｶｯｼﾌﾞ">
 			<PC Name="Tinkle Bell" PC="113">
 				<Bank Name="Tinkle Bell" LSB="0" MSB="0" />
 			</PC>
@@ -732,7 +767,9 @@
 			<PC Name="Reverse Cym" PC="120">
 				<Bank Name="Reverse Cym" LSB="0" MSB="0" />
 			</PC>
-			<!-- SFX -->
+		</Map>
+		<!-- @SFX -->
+		<Map Name="GS@SFX">
 			<PC Name="Gt.FretNoiz" PC="121">
 				<Bank Name="Gt.FretNoiz" LSB="0" MSB="0" />
 				<Bank Name="Gt.CutNoise" LSB="0" MSB="1" />
@@ -791,9 +828,11 @@
 				<Bank Name="Explosion" LSB="0" MSB="3" />
 			</PC>
 		</Map>
+		<!-- GSここまで -->
+
 		<!-- XGLite -->
 		<Map Name="XGLite">
-                        <!-- ピアノ -->
+            <!-- ピアノ -->
 			<PC Name="Grand Piano" PC="1">
 				<Bank Name="Grand Piano" MSB="0" LSB="0" />
 				<Bank Name="Grand Piano KSP" MSB="0" LSB="1" />
@@ -834,36 +873,34 @@
 				<Bank Name="Clavi" MSB="0" LSB="0" />
 				<Bank Name="Clavi KSP" MSB="0" LSB="1" />
 			</PC>
-                        <!-- クロマチック・パーカッション -->
-                        <!-- このした、まだ未チェック -->
+            <!-- クロマチック・パーカッション -->
 			<PC Name="Celesta" PC="9">
 				<Bank Name="Celesta" MSB="0" LSB="0" />
 			</PC>
 			<PC Name="Glockenspiel" PC="10">
-				<Bank Name="Glocken" MSB="0" LSB="0" />
+				<Bank Name="Glockenspiel" MSB="0" LSB="0" />
 			</PC>
 			<PC Name="Music Box" PC="11">
-				<Bank Name="MusicBox" MSB="0" LSB="0" />
+				<Bank Name="Music　Box" MSB="0" LSB="0" />
 				<Bank Name="Orgel" MSB="0" LSB="64" />
 			</PC>
 			<PC Name="Vibraphone" PC="12">
-				<Bank Name="Vibes" MSB="0" LSB="0" />
-				<Bank Name="Vibes K" MSB="0" LSB="1" />
-				<Bank Name="HardVibe" MSB="0" LSB="45" />
+				<Bank Name="Vibraphone" MSB="0" LSB="0" />
+				<Bank Name="Vibraphone KSP" MSB="0" LSB="1" />
 			</PC>
 			<PC Name="Marimba" PC="13">
 				<Bank Name="Marimba" MSB="0" LSB="0" />
-				<Bank Name="MarimbaK" MSB="0" LSB="1" />
-				<Bank Name="SineMrmb" MSB="0" LSB="64" />
+				<Bank Name="Marimba KSP" MSB="0" LSB="1" />
+				<Bank Name="Sine Marimba" MSB="0" LSB="64" />
 				<Bank Name="Balimba" MSB="0" LSB="97" />
-				<Bank Name="Log Drum" MSB="0" LSB="98" />
+				<Bank Name="Log Drums" MSB="0" LSB="98" />
 			</PC>
 			<PC Name="Xylophone" PC="14">
-				<Bank Name="Xylophon" MSB="0" LSB="0" />
+				<Bank Name="Xylophone" MSB="0" LSB="0" />
 			</PC>
 			<PC Name="Tubular Bells" PC="15">
-				<Bank Name="TubulBel" MSB="0" LSB="0" />
-				<Bank Name="ChrchBel" MSB="0" LSB="96" />
+				<Bank Name="Tubular Bells" MSB="0" LSB="0" />
+				<Bank Name="Church Bells" MSB="0" LSB="96" />
 				<Bank Name="Carillon" MSB="0" LSB="97" />
 			</PC>
 			<PC Name="Dulcimer" PC="16">
@@ -872,161 +909,144 @@
 				<Bank Name="Cimbalom" MSB="0" LSB="96" />
 				<Bank Name="Santur" MSB="0" LSB="97" />
 			</PC>
+            <!-- オルガン -->
 			<PC Name="Drawbar Organ" PC="17">
-				<Bank Name="DrawOrgn" MSB="0" LSB="0" />
-				<Bank Name="DetDrwOr" MSB="0" LSB="32" />
-				<Bank Name="60sDrOr1" MSB="0" LSB="33" />
-				<Bank Name="60sDrOr2" MSB="0" LSB="34" />
-				<Bank Name="70sDrOr1" MSB="0" LSB="35" />
-				<Bank Name="DrawOrg2" MSB="0" LSB="36" />
-				<Bank Name="60sDrOr3" MSB="0" LSB="37" />
-				<Bank Name="Even Bar" MSB="0" LSB="38" />
+				<Bank Name="Drawbar Organ" MSB="0" LSB="0" />
+				<Bank Name="Detuned Drawbar Organ" MSB="0" LSB="32" />
+				<Bank Name="60's Drawbar Organ 1" MSB="0" LSB="33" />
+				<Bank Name="60's Drawbar Organ 2" MSB="0" LSB="34" />
+				<Bank Name="70's Drawbar Organ 1" MSB="0" LSB="35" />
+				<Bank Name="60's Drawbar Organ 6" MSB="0" LSB="37" />
 				<Bank Name="16+2&quot;2/3" MSB="0" LSB="40" />
-				<Bank Name="Organ Ba" MSB="0" LSB="64" />
-				<Bank Name="70sDrOr2" MSB="0" LSB="65" />
-				<Bank Name="CheezOrg" MSB="0" LSB="66" />
-				<Bank Name="DrawOrg3" MSB="0" LSB="67" />
+				<Bank Name="Organ Bass" MSB="0" LSB="64" />
+				<Bank Name="70's Drawbar Organ 2" MSB="0" LSB="65" />
+				<Bank Name="Cheezy Organ" MSB="0" LSB="66" />
+				<Bank Name="Drawbar Organ 3" MSB="0" LSB="67" />
 			</PC>
 			<PC Name="Percussive Organ" PC="18">
-				<Bank Name="PercOrgn" MSB="0" LSB="0" />
-				<Bank Name="70sPcOr1" MSB="0" LSB="24" />
-				<Bank Name="DetPrcOr" MSB="0" LSB="32" />
-				<Bank Name="Lite Org" MSB="0" LSB="33" />
-				<Bank Name="PercOrg2" MSB="0" LSB="37" />
+				<Bank Name="Percussive Organ" MSB="0" LSB="0" />
+				<Bank Name="70's Percussive Organ 1" MSB="0" LSB="24" />
+				<Bank Name="Detuned Percussive Organ" MSB="0" LSB="32" />
+				<Bank Name="Light Organ" MSB="0" LSB="33" />
+				<Bank Name="Percussive Organ 2" MSB="0" LSB="37" />
 			</PC>
 			<PC Name="Rock Organ" PC="19">
-				<Bank Name="RockOrgn" MSB="0" LSB="0" />
-				<Bank Name="RotaryOr" MSB="0" LSB="64" />
-				<Bank Name="SloRotar" MSB="0" LSB="65" />
-				<Bank Name="FstRotar" MSB="0" LSB="66" />
+				<Bank Name="Rock Organ" MSB="0" LSB="0" />
+				<Bank Name="Rotary Organ" MSB="0" LSB="64" />
+				<Bank Name="Slow Rotary" MSB="0" LSB="65" />
+				<Bank Name="Fast Rotary" MSB="0" LSB="66" />
 			</PC>
 			<PC Name="Church Organ" PC="20">
-				<Bank Name="ChrchOrg" MSB="0" LSB="0" />
-				<Bank Name="ChurOrg3" MSB="0" LSB="32" />
-				<Bank Name="ChurOrg2" MSB="0" LSB="35" />
-				<Bank Name="NotreDam" MSB="0" LSB="40" />
-				<Bank Name="OrgFlute" MSB="0" LSB="64" />
-				<Bank Name="TrmOrgFl" MSB="0" LSB="65" />
+				<Bank Name="Church Organ" MSB="0" LSB="0" />
+				<Bank Name="Church Organ 3" MSB="0" LSB="32" />
+				<Bank Name="Church Organ 2" MSB="0" LSB="35" />
+				<Bank Name="Notre Dame" MSB="0" LSB="40" />
+				<Bank Name="Organ Flute" MSB="0" LSB="64" />
+				<Bank Name="Tremolo Organ Flute" MSB="0" LSB="65" />
 			</PC>
 			<PC Name="Reed Organ" PC="21">
-				<Bank Name="ReedOrgn" MSB="0" LSB="0" />
-				<Bank Name="Puff Org" MSB="0" LSB="40" />
+				<Bank Name="Reed Organ" MSB="0" LSB="0" />
+				<Bank Name="Puff Organ" MSB="0" LSB="40" />
 			</PC>
 			<PC Name="Accordion" PC="22">
-				<Bank Name="Acordion" MSB="0" LSB="0" />
-				<Bank Name="AccordIt" MSB="0" LSB="32" />
+				<Bank Name="Accordion" MSB="0" LSB="0" />
 			</PC>
 			<PC Name="Harmonica" PC="23">
-				<Bank Name="Harmnica" MSB="0" LSB="0" />
-				<Bank Name="Harmo. 2" MSB="0" LSB="32" />
+				<Bank Name="Harmonica" MSB="0" LSB="0" />
+				<Bank Name="Harmonica 2" MSB="0" LSB="32" />
 			</PC>
 			<PC Name="Tango Accordion" PC="24">
-				<Bank Name="TangoAcd" MSB="0" LSB="0" />
-				<Bank Name="TngoAcd2" MSB="0" LSB="64" />
+				<Bank Name="Tango Accordion" MSB="0" LSB="0" />
+				<Bank Name="Tango Accordion 2" MSB="0" LSB="64" />
 			</PC>
+            <!-- ギター -->
 			<PC Name="Nylon Guitar" PC="25">
-				<Bank Name="NylonGtr" MSB="0" LSB="0" />
-				<Bank Name="NylonGt2" MSB="0" LSB="16" />
-				<Bank Name="NylonGt3" MSB="0" LSB="25" />
-				<Bank Name="VelGtHrm" MSB="0" LSB="43" />
-				<Bank Name="Ukulele" MSB="0" LSB="96" />
+				<Bank Name="Nylon Guitar" MSB="0" LSB="0" />
+				<Bank Name="Velocity Guiter Harmonics" MSB="0" LSB="43" />
+				<Bank Name="Cimbalom" MSB="0" LSB="96" />
 			</PC>
 			<PC Name="Steel Guitar" PC="26">
-				<Bank Name="SteelGtr" MSB="0" LSB="0" />
-				<Bank Name="SteelGt2" MSB="0" LSB="16" />
-				<Bank Name="12StrGtr" MSB="0" LSB="35" />
-				<Bank Name="Nyln&amp;Stl" MSB="0" LSB="40" />
-				<Bank Name="Stl&amp;Body" MSB="0" LSB="41" />
+				<Bank Name="Steel Guitar" MSB="0" LSB="0" />
+				<Bank Name="12-Strings Guiter" MSB="0" LSB="35" />
+				<Bank Name="Nylon&amp;Steel Guiter" MSB="0" LSB="40" />
+				<Bank Name="Steel Guiter with Body Sound" MSB="0" LSB="41" />
 				<Bank Name="Mandolin" MSB="0" LSB="96" />
 			</PC>
 			<PC Name="Jazz Guitar" PC="27">
-				<Bank Name="Jazz Gtr" MSB="0" LSB="0" />
-				<Bank Name="MelloGtr" MSB="0" LSB="18" />
+				<Bank Name="Jazz Guitar" MSB="0" LSB="0" />
 				<Bank Name="Jazz Amp" MSB="0" LSB="32" />
 			</PC>
 			<PC Name="Clean Guitar" PC="28">
-				<Bank Name="CleanGtr" MSB="0" LSB="0" />
-				<Bank Name="ChorusGt" MSB="0" LSB="32" />
+				<Bank Name="Clean Guitar" MSB="0" LSB="0" />
+				<Bank Name="Chorus Guiter" MSB="0" LSB="32" />
 			</PC>
 			<PC Name="Muted Guitar" PC="29">
-				<Bank Name="Mute Gtr" MSB="0" LSB="0" />
-				<Bank Name="FunkGtr1" MSB="0" LSB="40" />
-				<Bank Name="MuteStlG" MSB="0" LSB="41" />
-				<Bank Name="FunkGtr2" MSB="0" LSB="43" />
+				<Bank Name="Muted Guitar" MSB="0" LSB="0" />
+				<Bank Name="Funk Guiter 1" MSB="0" LSB="40" />
+				<Bank Name="Muted Steel Guiter" MSB="0" LSB="41" />
 				<Bank Name="Jazz Man" MSB="0" LSB="45" />
 			</PC>
 			<PC Name="Overdriven Guitar" PC="30">
-				<Bank Name="Ovrdrive" MSB="0" LSB="0" />
-				<Bank Name="Gt.Pinch" MSB="0" LSB="43" />
+				<Bank Name="Overdriven Guitar" MSB="0" LSB="0" />
+				<Bank Name="Guiter Pinch" MSB="0" LSB="43" />
 			</PC>
 			<PC Name="Distortion Guitar" PC="31">
-				<Bank Name="Dist.Gtr" MSB="0" LSB="0" />
-				<Bank Name="FeedbkGt" MSB="0" LSB="40" />
-				<Bank Name="FeedbkG2" MSB="0" LSB="41" />
+				<Bank Name="Distortion Guitar" MSB="0" LSB="0" />
+				<Bank Name="Feedback Guiter 1" MSB="0" LSB="40" />
+				<Bank Name="Feedback Guiter 2" MSB="0" LSB="41" />
 			</PC>
 			<PC Name="Guitar Harmonics" PC="32">
-				<Bank Name="GtrHarmo" MSB="0" LSB="0" />
-				<Bank Name="GtFeedbk" MSB="0" LSB="65" />
-				<Bank Name="GtrHrmo2" MSB="0" LSB="66" />
+				<Bank Name="Guitar Harmonics" MSB="0" LSB="0" />
+				<Bank Name="Guitar Feedback" MSB="0" LSB="65" />
+				<Bank Name="Guitar Harmonics 2" MSB="0" LSB="66" />
 			</PC>
+            <!-- ベース -->
 			<PC Name="Acoustic Bass" PC="33">
-				<Bank Name="Aco.Bass" MSB="0" LSB="0" />
-				<Bank Name="JazzRthm" MSB="0" LSB="40" />
-				<Bank Name="VXUprght" MSB="0" LSB="45" />
+				<Bank Name="Acoustic Bass" MSB="0" LSB="0" />
+				<Bank Name="Jazz Rhythm" MSB="0" LSB="40" />
+				<Bank Name="Velocity Crossfade Upright Bass" MSB="0" LSB="45" />
 			</PC>
 			<PC Name="Finger Bass" PC="34">
-				<Bank Name="FngrBass" MSB="0" LSB="0" />
-				<Bank Name="FingrDrk" MSB="0" LSB="18" />
-				<Bank Name="FlangeBa" MSB="0" LSB="27" />
-				<Bank Name="Ba&amp;DstEG" MSB="0" LSB="40" />
-				<Bank Name="FngrSlap" MSB="0" LSB="43" />
-				<Bank Name="FngBass2" MSB="0" LSB="45" />
-				<Bank Name="Mod.Bass" MSB="0" LSB="65" />
+				<Bank Name="Finger Bass" MSB="0" LSB="0" />
+				<Bank Name="Finger Dark" MSB="0" LSB="18" />
+				<Bank Name="Bass &amp; Distorted Electric Guiter" MSB="0" LSB="40" />
+				<Bank Name="Finger Slap Bass" MSB="0" LSB="43" />
+				<Bank Name="Finger Bass 2" MSB="0" LSB="45" />
+				<Bank Name="Modulated Bass" MSB="0" LSB="65" />
 			</PC>
 			<PC Name="Pick Bass" PC="35">
-				<Bank Name="PickBass" MSB="0" LSB="0" />
-				<Bank Name="MutePkBa" MSB="0" LSB="28" />
+				<Bank Name="Pick Bass" MSB="0" LSB="0" />
+				<Bank Name="Muted Pick Bass" MSB="0" LSB="28" />
 			</PC>
 			<PC Name="Fretless Bass" PC="36">
-				<Bank Name="Fretless" MSB="0" LSB="0" />
-				<Bank Name="Fretles2" MSB="0" LSB="32" />
-				<Bank Name="Fretles3" MSB="0" LSB="33" />
-				<Bank Name="Fretles4" MSB="0" LSB="34" />
-				<Bank Name="SynFretl" MSB="0" LSB="96" />
-				<Bank Name="SmthFrtl" MSB="0" LSB="97" />
+				<Bank Name="Fretless Bass" MSB="0" LSB="0" />
+				<Bank Name="Fretless Bass 2" MSB="0" LSB="32" />
+				<Bank Name="Fretless Bass 3" MSB="0" LSB="33" />
+				<Bank Name="Fretless Bass 4" MSB="0" LSB="34" />
 			</PC>
 			<PC Name="Slap Bass 1" PC="37">
-				<Bank Name="SlapBas1" MSB="0" LSB="0" />
-				<Bank Name="ResoSlap" MSB="0" LSB="27" />
-				<Bank Name="PunchThm" MSB="0" LSB="32" />
+				<Bank Name="Slap Bass 1" MSB="0" LSB="0" />
+				<Bank Name="Punch Thumb Bass" MSB="0" LSB="32" />
 			</PC>
 			<PC Name="Slap Bass 2" PC="38">
-				<Bank Name="SlapBas2" MSB="0" LSB="0" />
-				<Bank Name="VeloSlap" MSB="0" LSB="43" />
+				<Bank Name="Slap Bass 2" MSB="0" LSB="0" />
+				<Bank Name="Velocity Switch Slap" MSB="0" LSB="43" />
 			</PC>
 			<PC Name="Synth Bass 1" PC="39">
-				<Bank Name="SynBass1" MSB="0" LSB="0" />
-				<Bank Name="SynBa1Dk" MSB="0" LSB="18" />
-				<Bank Name="FastResB" MSB="0" LSB="20" />
-				<Bank Name="AcidBass" MSB="0" LSB="24" />
-				<Bank Name="Clv Bass" MSB="0" LSB="35" />
-				<Bank Name="TechnoBa" MSB="0" LSB="40" />
-				<Bank Name="Orbiter" MSB="0" LSB="64" />
-				<Bank Name="Sqr.Bass" MSB="0" LSB="65" />
-				<Bank Name="RubberBa" MSB="0" LSB="66" />
-				<Bank Name="Hammer" MSB="0" LSB="96" />
+				<Bank Name="Synth Bass 1" MSB="0" LSB="0" />
+				<Bank Name="Techno Synth Bass" MSB="0" LSB="40" />
+				<Bank Name="SweePWM" MSB="0" LSB="85" />
 			</PC>
 			<PC Name="Synth Bass 2" PC="40">
-				<Bank Name="SynBass2" MSB="0" LSB="0" />
-				<Bank Name="MelloSBa" MSB="0" LSB="6" />
-				<Bank Name="Seq Bass" MSB="0" LSB="12" />
-				<Bank Name="ClkSynBa" MSB="0" LSB="18" />
-				<Bank Name="SynBa2Dk" MSB="0" LSB="19" />
-				<Bank Name="SmthSynB" MSB="0" LSB="32" />
-				<Bank Name="ModulrBa" MSB="0" LSB="40" />
+				<Bank Name="Synth Bass 2" MSB="0" LSB="0" />
+				<Bank Name="Mellow Synth Bass" MSB="0" LSB="6" />
+				<Bank Name="Sequenced Bass" MSB="0" LSB="12" />
+				<Bank Name="Click Synth Bass" MSB="0" LSB="18" />
+				<Bank Name="Synth Bass 2 Dark" MSB="0" LSB="19" />
 				<Bank Name="DX Bass" MSB="0" LSB="41" />
-				<Bank Name="X WireBa" MSB="0" LSB="64" />
 			</PC>
+            <!-- ストリングス・オーケストラ -->
+            <!-- 以下、未修正 -->
 			<PC Name="Violin" PC="41">
 				<Bank Name="Violin" MSB="0" LSB="0" />
 				<Bank Name="Slow Vln" MSB="0" LSB="8" />
