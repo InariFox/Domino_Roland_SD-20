@@ -299,8 +299,8 @@
 		<!-- Native/GM2ここまで	-->
 
 		<!-- GS -->
-		<!-- @ピアノ -->
-		<Map Name="GS@ﾋﾟｱﾉ">
+		<Map Name="GS">
+			<!-- @ピアノ -->
 			<PC Name="Piano 1" PC="1">
 				<Bank Name="Piano 1" LSB="0" MSB="0" />
 				<Bank Name="Piano 1w" LSB="0" MSB="8" />
@@ -338,9 +338,7 @@
 			<PC Name="Clav." PC="8">
 				<Bank Name="Clav." LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @クロマチック・パーカッション -->
-		<Map Name="GS@ｸﾛﾏﾁｯｸ/ﾊﾟｰｶｯｼｮﾝ">
+			<!-- @クロマチック・パーカッション -->
 			<PC Name="Celesta" PC="9">
 				<Bank Name="Celesta" LSB="0" MSB="0" />
 			</PC>
@@ -369,9 +367,7 @@
 			<PC Name="Santur" PC="16">
 				<Bank Name="Santur" LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @オルガン -->
-		<Map Name="GS@ｵﾙｶﾞﾝ">
+			<!-- @オルガン -->
 			<PC Name="Organ 1" PC="17">
 				<Bank Name="Organ 1" LSB="0" MSB="0" />
 				<Bank Name="Detuned Or1" LSB="0" MSB="8" />
@@ -404,9 +400,7 @@
 			<PC Name="Bandoneon" PC="24">
 				<Bank Name="Bandoneon" LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @ギター -->
-		<Map Name="GS@ｷﾞﾀｰ">
+			<!-- @ギター -->
 			<PC Name="Nylon Gt." PC="25">
 				<Bank Name="Nylon Gt." LSB="0" MSB="0" />
 				<Bank Name="Ukulele" LSB="0" MSB="8" />
@@ -442,9 +436,7 @@
 				<Bank Name="Gt.Harmonix" LSB="0" MSB="0" />
 				<Bank Name="Gt.Feedback" LSB="0" MSB="8" />
 			</PC>
-		</Map>
-		<!-- @ベース -->
-		<Map Name="GS@ﾍﾞｰｽ">
+			<!-- @ベース -->
 			<PC Name="Acoustic Bs" PC="33">
 				<Bank Name="Acoustic Bs" LSB="0" MSB="0" />
 			</PC>
@@ -473,9 +465,7 @@
 				<Bank Name="Syn.Bass 4" LSB="0" MSB="8" />
 				<Bank Name="Rubber Bass" LSB="0" MSB="16" />
 			</PC>
-		</Map>
-		<!-- @ストリングス・オーケストラ -->
-		<Map Name="GS@ｽﾄﾘﾝｸﾞｽ/ｵｰｹｽﾄﾗ">
+			<!-- @ストリングス・オーケストラ -->
 			<PC Name="Violin" PC="41">
 				<Bank Name="Violin" LSB="0" MSB="0" />
 				<Bank Name="Slow Violin" LSB="0" MSB="8" />
@@ -501,9 +491,7 @@
 			<PC Name="Timpani" PC="48">
 				<Bank Name="Timpani" LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @アンサンブル -->
-		<Map Name="GS@ｱﾝｻﾝﾌﾞﾙ">
+			<!-- @アンサンブル -->
 			<PC Name="Strings" PC="49">
 				<Bank Name="Strings" LSB="0" MSB="0" />
 				<Bank Name="Orchestra" LSB="0" MSB="8" />
@@ -531,9 +519,7 @@
 			<PC Name="Orchest.Hit" PC="56">
 				<Bank Name="Orchest.Hit" LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @ブラス -->
-		<Map Name="GS@ﾌﾞﾗｽ">
+			<!-- @ブラス -->
 			<PC Name="Trumpet" PC="57">
 				<Bank Name="Trumpet" LSB="0" MSB="0" />
 			</PC>
@@ -565,9 +551,7 @@
 				<Bank Name="Syn.Brass 4" LSB="0" MSB="8" />
 				<Bank Name="Analog Brs2" LSB="0" MSB="16" />
 			</PC>
-		</Map>
-		<!-- @リード -->
-		<Map Name="GS@ﾘｰﾄﾞ">
+			<!-- @リード -->
 			<PC Name="Soprano Sax" PC="65">
 				<Bank Name="Soprano Sax" LSB="0" MSB="0" />
 			</PC>
@@ -592,9 +576,7 @@
 			<PC Name="Clarinet" PC="72">
 				<Bank Name="Clarinet" LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @パイプ -->
-		<Map Name="GS@ﾊﾟｲﾌﾟ">
+			<!-- @パイプ -->
 			<PC Name="Piccolo" PC="73">
 				<Bank Name="Piccolo" LSB="0" MSB="0" />
 			</PC>
@@ -619,9 +601,7 @@
 			<PC Name="Ocarina" PC="80">
 				<Bank Name="Ocarina" LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @シンセリード -->
-		<Map Name="GS@ｼﾝｾﾘｰﾄﾞ">
+			<!-- @シンセリード -->
 			<PC Name="Square Wave" PC="81">
 				<Bank Name="Square Wave" LSB="0" MSB="0" />
 				<Bank Name="Square" LSB="0" MSB="1" />
@@ -650,9 +630,7 @@
 			<PC Name="Bass & Lead" PC="88">
 				<Bank Name="Bass & Lead" LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @シンセパッド -->
-		<Map Name="GS@ｼﾝｾﾊﾟｯﾄﾞ">
+			<!-- @シンセパッド -->
 			<PC Name="Fantasia" PC="89">
 				<Bank Name="Fantasia" LSB="0" MSB="0" />
 			</PC>
@@ -677,9 +655,7 @@
 			<PC Name="Sweep Pad" PC="96">
 				<Bank Name="Sweep Pad" LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @シンセ SFX -->
-		<Map Name="GS@ｼﾝｾSFX">
+			<!-- @シンセ SFX -->
 			<PC Name="Ice Rain" PC="97">
 				<Bank Name="Ice Rain" LSB="0" MSB="0" />
 			</PC>
@@ -706,9 +682,7 @@
 			<PC Name="Star Theme" PC="104">
 				<Bank Name="Star Theme" LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @エスニック -->
-		<Map Name="GS@ｴｽﾆｯｸ">
+			<!-- @エスニック -->
 			<PC Name="Sitar" PC="105">
 				<Bank Name="Sitar" LSB="0" MSB="0" />
 				<Bank Name="Sitar 2" LSB="0" MSB="1" />
@@ -735,9 +709,7 @@
 			<PC Name="Shanai" PC="112">
 				<Bank Name="Shanai" LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @パーカッシブ -->
-		<Map Name="GS@ﾊﾟｰｶｯｼﾌﾞ">
+			<!-- @パーカッシブ -->
 			<PC Name="Tinkle Bell" PC="113">
 				<Bank Name="Tinkle Bell" LSB="0" MSB="0" />
 			</PC>
@@ -767,9 +739,7 @@
 			<PC Name="Reverse Cym" PC="120">
 				<Bank Name="Reverse Cym" LSB="0" MSB="0" />
 			</PC>
-		</Map>
-		<!-- @SFX -->
-		<Map Name="GS@SFX">
+			<!-- @SFX -->
 			<PC Name="Gt.FretNoiz" PC="121">
 				<Bank Name="Gt.FretNoiz" LSB="0" MSB="0" />
 				<Bank Name="Gt.CutNoise" LSB="0" MSB="1" />
